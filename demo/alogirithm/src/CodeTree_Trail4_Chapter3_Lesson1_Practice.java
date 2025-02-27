@@ -3,7 +3,7 @@ import java.util.*;
 import static java.lang.Integer.*;
 
 
-public class Main {
+public class CodeTree_Trail4_Chapter3_Lesson1_Practice {
     static int n;
     static int[][] arr;
     static boolean[][] visited;
