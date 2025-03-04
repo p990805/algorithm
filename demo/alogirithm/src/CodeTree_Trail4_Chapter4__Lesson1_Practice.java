@@ -2,15 +2,18 @@ import java.io.*;
 import java.util.*;
 import static java.lang.Integer.*;
 
-class Node{
-    int x,y;
-    public Node(int x, int y){
-        this.x = x;
-        this.y = y;
-    }
-}
+
 
 public class CodeTree_Trail4_Chapter4__Lesson1_Practice {
+    private static class Node{
+        int x,y;
+        public Node(int x, int y){
+            this.x = x;
+            this.y = y;
+        }
+    }
+
+
     static int n,k;
     static int[][] arr;
     static boolean[][] visited;
