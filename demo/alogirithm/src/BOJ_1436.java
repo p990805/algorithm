@@ -3,6 +3,7 @@ import java.io.*;
 import static java.lang.Integer.*;
 
 public class BOJ_1436 {
+
     static int N;
     static boolean flag = false;
     static int cnt = 0;
