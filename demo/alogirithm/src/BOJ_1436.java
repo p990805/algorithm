@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.*;
+
 import static java.lang.Integer.*;
 
 public class BOJ_1436 {
