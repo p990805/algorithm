@@ -8,8 +8,8 @@ public class BOJ_2668 {
     static List<Integer> answer;
 
     static void dfs(int i) {
-        if (arr[i] == num) { // 한바퀴돌아 다시 제자리로 돌아오는지 체크
-            answer.add(num); // 돌아온다면 정답에 추가
+        if (arr[i] == num) {
+            answer.add(num);
         }
         if (!check[arr[i]]) {
             check[arr[i]] = true;
