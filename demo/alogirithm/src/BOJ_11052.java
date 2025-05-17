@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class BOJ_11052 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
@@ -18,7 +18,7 @@ public class Main {
 
         for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
-                dp[i] = Math.max(dp[i], dp[i-j]+arr[i]);
+                dp[i] = Math.max(dp[i], dp[i-j]+arr[j]);
             }
         }
 
