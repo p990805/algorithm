@@ -1,0 +1,25 @@
+import java.io.FileInputStream;
+import java.util.*;
+
+class SWEA_3142
+{
+	public static void main(String args[]) throws Exception
+	{
+
+		Scanner sc = new Scanner(System.in);
+		int T;
+		T=sc.nextInt();
+        StringBuilder sb = new StringBuilder();
+
+		for(int test_case = 1; test_case <= T; test_case++)
+		{
+			int n = sc.nextInt();
+            int m = sc.nextInt();
+            int twin = n-m;
+            int uni = m - twin;
+            sb.append("#").append(test_case).append(" ").append(uni).append(" ").append(twin).append("\n");           
+            
+		}
+        System.out.println(sb.toString().trim());
+	}
+}
